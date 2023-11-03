@@ -1,6 +1,3 @@
-import { ModuleMap } from "jest-haste-map";
-import { completion } from "yargs";
-
 export const calculateDistance = (x1, x2) => x2 > x1 ? x2 - x1 : x1 - x2;
 
 export const calculateSegmentProduct = (A, B, C) => {
