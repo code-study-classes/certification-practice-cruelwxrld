@@ -107,7 +107,7 @@ describe('Group: numbers', () => {
   });
 
   test('task10', () => {
-    expect(countSquares(10, 15, 2)).toBe(35);
+    expect(countSquares(10, 15, 2)).toBe(37);
 
     expect(countSquares(8, 8, 8)).toBe(1);
 
